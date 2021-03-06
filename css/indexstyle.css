@@ -1,0 +1,29 @@
+/* navbar */
+
+.navbar-brand{
+  font-weight: bolder;
+  font-size: 9.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+ /* heading */
+.heading{
+  text-align: center;
+  padding-top:100px;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* title */
+
+.title-intro{
+
+  width:100%;
+}
