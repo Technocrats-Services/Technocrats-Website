@@ -15,6 +15,11 @@
 
 .navbar-brand{
   font-family: 'Baloo Bhai 2', cursive;
+  animation: comeout forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  
 }
 h1{
 font: 'Baloo Bhai 2', cursive;
@@ -40,6 +45,11 @@ h2{
 
 .nav-item{
   padding: 0 18px;
+  animation: comeout forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  
 }
 .nav-link{
   font-size: 1.2rem;
@@ -138,57 +148,65 @@ h2{
   padding: 0%;
   margin: 0% 5%;
   margin-right: 10%;
-  animation: comeout ;
-  animation-duration: 3s;
+  animation: comeout forwards;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
+  animation-delay:90ms;
+  opacity: 0%;
+}
+
+  
+
+#bx1 h1,#bx1 h2,#bx1 h4,#bx1 p{
+  animation: comeout forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-delay: 120ms;
+  opacity: 0%;
   
 }
-#bx1 h1,h2,h4,p{
-  animation: comeoutt;
-  animation-duration: 3s;
+.anim{
+  animation: comeout forwards;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
+  animation-delay: 120ms;
+ 
+  
+}
 
-}
-@keyframes comeoutt{
-0%{
-  font-size: 130%;
-  margin-left: 10%;
-}
-100%{
-  font-size: 120%;
-  margin-left: 0%;
-}
-}
 @keyframes comeout {
   0%{
-    height:40%;
-    width:40%;
+    opacity: 0%;
+    transform: scale(0.5);
   }
   100%{
-    height:30%;
-    width: 30%;
+    opacity: 100%;
+    transform: scale(1);
   }
-    
+  
 }
-
+#bx2 h1,#bx2 h2,#bx2 h4,#bx2 p{
+opacity: 0%;
+}
 #bx2 img{
- 
+  
   float: right;
   display: inline;
   height: 50%;
   width: 50%;
   padding: 0%;
   margin-left:  10%;
-  animation: movein ;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
- 
+  opacity: 0%;
+  
+  
 }
 
-
+#bx3 h1,#bx3 h2,#bx3 h4,#bx3 p{
+  opacity: 0%;
+  }
 
 
 
@@ -199,6 +217,7 @@ h2{
   width: 50%;
   padding: 0%;
   margin:  0%;
+  opacity: 0%;
 }
 #bx4 img{
   float: left;
@@ -207,7 +226,13 @@ h2{
   width: 50%;
   padding: 0%;
   margin-right:  10%;
+  opacity: 0%;
 }
+#bx4 h1,#bx4 h2,#bx4 h4,#bx4 p{
+  opacity: 0%;
+  }
+
+
 #db img{
   float: left;
   display: inline;
@@ -215,9 +240,11 @@ h2{
   width: 50%;
   padding: 0%;
   margin-right:  10%;
+  opacity: 0%;
 }
-#db h4{
+#db h4,#db p{
   padding: 1% 0%;
+  opacity: 0%;
 }
 .team h2{
   margin-top: 20%;
