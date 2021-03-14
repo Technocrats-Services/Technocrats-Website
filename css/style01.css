@@ -253,3 +253,21 @@ opacity: 0%;
 .team p{
   text-align: center;
 }
+
+#teamflo button{
+
+  position: absolute;
+  top: 90%;
+  left: 80%;
+
+}
+
+.imgblr{
+  filter: blur(10%);
+}
+#instaN{
+  display: none;
+}
+.dis{
+  display: block;
+}
