@@ -271,3 +271,15 @@ opacity: 0%;
 .dis{
   display: block;
 }
+#footer{
+  background-color: #373a41;
+}
+#footer p{
+  color: white;
+}
+#footer button a{
+  color: black;
+}
+#footer button:hover{
+transform: scale(1);
+}

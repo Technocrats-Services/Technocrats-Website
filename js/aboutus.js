@@ -13,7 +13,7 @@ $(document).ready(function(){
                 if(positiontop>600 && positiontop<900){
                 $('.bxc4').addClass('anim')
                 }
-                if(positiontop>900 && positiontop<1200){
+                if(positiontop>900 && positiontop<1000){
                 $('.bxc5').addClass('anim')
                 }
         
@@ -37,15 +37,3 @@ $(document).ready(function(){
 
     });
 });
-window.onload=function(){
-let floN = document.getElementById('floN')
-
-floN.addEventListener('click',function hover(){
-    let instaN = document.getElementById('instaN')
-    let imgN = document.getElementById('imgN')
-    console.log('run')
-    instaN.addClass('dis')
-    imgN.addClass('imgblr')
-
-});
-}
