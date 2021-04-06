@@ -1,11 +1,26 @@
+
 #title{
-  background-color: #393e46;
-  background-image: url(../images/wesitehome.jpg) ;
+  
+  background-color:transparent;
+ 
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#title::before{
+  content:" ";
+  background-image: url('../images/Website.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  filter: brightness(30%);
+  
+  z-index: -1;
+}
 .logotext{
    font-size: 2rem;
 }
@@ -37,7 +52,7 @@ size:3rem;
 }
 .dis{
     line-height: 1.5;
-    color: #e8e4e1
+    color: #e8e4e1;
     padding:5% 7%
 }
 
@@ -78,7 +93,7 @@ size:3rem;
 }
 
 .icon{
-  color:red;
+  color:#373a41;
   margin-bottom: 1rem;
 }
 .icon:hover{
@@ -88,15 +103,28 @@ size:3rem;
 #carousel{
   padding:9% 11%;
   width:93%;
-  tet-align: center;
+  text-align: center;
   color: #FFFFFF;
 
 }
 
 /* homebanner  */
 
-.banner{
+.homebanner h4{
   width:100%;
+  height: 550px;
+  background-image: url('../images/HOMELASTBG.jpg');
+  color: white;
+  font-size: 200%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-bottom: 20%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  filter: brightness(70%);
+
 }
 
 
@@ -128,7 +156,7 @@ size:3rem;
   padding:50px 50px;
 }
 .twitter{
-  color:#blue;
+  color:blue;
   padding:50px 50px;
 }
 .fab:hover{
@@ -137,7 +165,7 @@ size:3rem;
 
 /* what we do */
 .wwd{
-  background-color: #393e46;
+  background-color:white;
   padding: 50px ;
   padding-left: 0;
   text-align: center;
@@ -155,7 +183,7 @@ text-align: left;
 
 
 .what-we-do{
-  color: #ffffff;
+  color:#393e46;
 }
 .card-body{
   padding:100px;
@@ -175,3 +203,24 @@ background-image: url();
 
 
 } */
+#hiring img{
+  display: inline-block;
+  float: right;
+  width: 40%;
+  height:40%;
+  padding-top: 5%;
+}
+#hiring h4{
+  padding-left:10%;
+  padding-top: 11%;
+  margin-bottom: 22%;
+}
+#hiring button{
+  margin: 2% 0%;
+}
+#footer{
+  background: #373a41;
+}
+#cimg1,#cimg2{
+  filter: brightness(50%);
+}

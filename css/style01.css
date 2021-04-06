@@ -246,6 +246,7 @@ opacity: 0%;
   padding: 1% 0%;
   opacity: 0%;
 }
+
 .team h2{
   margin-top: 20%;
   text-align: center;
@@ -282,4 +283,8 @@ opacity: 0%;
 }
 #footer button:hover{
 transform: scale(1);
+}
+#teamcr{
+  background-color: #373a41;
+
 }
